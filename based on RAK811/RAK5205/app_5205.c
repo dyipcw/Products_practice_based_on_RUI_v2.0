@@ -490,22 +490,22 @@ void LoRaWANSendsucceed_callback(RUI_MCPS_T mcps_type,RUI_RETURN_STATUS status)
         {
             case RUI_MCPS_UNCONFIRMED:
             {
-                RUI_LOG_PRINTF("OK \r\n");
+                RUI_LOG_PRINTF("RUI_MCPS_UNCONFIRMED OK \r\n");
                 break;
             }
             case RUI_MCPS_CONFIRMED:
             {
-                RUI_LOG_PRINTF("OK \r\n");
+                RUI_LOG_PRINTF("RUI_MCPS_CONFIRMED OK \r\n");
                 break;
             }
             case RUI_MCPS_MULTICAST:
             {
-                RUI_LOG_PRINTF("OK \r\n");
+                RUI_LOG_PRINTF("RUI_MCPS_MULTICAST OK \r\n");
                 break;           
             }
             case RUI_MCPS_PROPRIETARY:
             {
-                RUI_LOG_PRINTF("OK \r\n");
+                RUI_LOG_PRINTF("RUI_MCPS_PROPRIETARY OK \r\n");
                 break;
             }
             default:             
